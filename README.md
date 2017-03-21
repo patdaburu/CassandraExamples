@@ -74,7 +74,7 @@ Status=Up/Down
 UN  127.0.0.1  103.8 KiB  256          100.0%            770ca4b4-a442-427c-8860-bfa7f01fecc7  rack1
 ```
 
-#Running `cqlsh`
+# Running `cqlsh`
 
 While we will be using the .Net driver, you can also query the Cassandra database using [CQL (Cassandra Query Language)](http://cassandra.apache.org/doc/latest/cql/index.html) and [`cqlsh`](<http://cassandra.apache.org/doc/latest/tools/cqlsh.html>), the CQL shell.
 
@@ -93,7 +93,7 @@ chcp 65001
 cqlsh
 ```
 
-#Creating a Keyspace and a Table
+# Creating a Keyspace and a Table
 
 If you look at one of the [language driver tutorials](<https://academy.datastax.com/resources/getting-started-apache-cassandra-and-c-net>), it may recommend that you first create a keyspace and a table.
 
@@ -115,7 +115,7 @@ Once the keyspace has been created it you tell Cassandra that all future command
 USE "demo";
 ```
 
-##Create a Table
+## Create a Table
 
 ```sh
 CREATE TABLE "users" (
@@ -125,7 +125,7 @@ CREATE TABLE "users" (
 ```
 
 
-#The C# Driver for Apache Cassandra
+# The C# Driver for Apache Cassandra
 
 There are [several C#/.Net client drivers](<http://cassandra.apache.org/doc/latest/getting_started/drivers.html>) from which to choose, but we'll start with the [DataStax C# driver](<http://datastax.github.io/csharp-driver/>) which we can install easily enough to any project using the [nuget package](<https://www.nuget.org/packages/CassandraCSharpDriver/>), which is called `CassandraCSharpDriver`.
 
