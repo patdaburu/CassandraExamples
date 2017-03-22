@@ -79,7 +79,7 @@ namespace _01_ConnectCrud
                 Console.WriteLine($"The record for '{fakeUserName}' was left in the database");
             }
 
-            // Optioally, delete all the records.
+            // Optionally, delete all the records.
             Console.WriteLine("Do you want to delete *all* the records in the table?");
             Console.WriteLine("Type 'Y' to delete *all* the records, or any other key to move along.");
             var ckInfoDeleteAll = Console.ReadKey(false);

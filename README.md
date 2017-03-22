@@ -137,11 +137,13 @@ Install-Package CassandraCSharpDriver
 
 Once it's installed, you can review a [tutorial](<https://academy.datastax.com/resources/getting-started-apache-cassandra-and-c-net>) on using the C#/.Net driver.
 
-To see a working code example
+To see a working code example, check out the [01_ConnectCrud](<https://github.com/patdaburu/CassandraExamples/tree/master/01_ConnectCrud>) console application.
 
 ## CqlPoco: An Object Mapper for Cassandra and .Net
 
 While it's unclear as of this writing that Chartis will ultimately require an ORM, the [DataStax .Net driver](<http://cassandra.apache.org/doc/latest/getting_started/drivers.html>) does contain a *"micro-ORM"* called [CqlPoco](https://github.com/LukeTillman/cqlpoco).  Luke Tilman, the original project author has a nice article about CqlPoco [here](<http://www.luketillman.com/introducing-cqlpoco-an-object-mapper-for-cassandra-and-net/>).
 
-[More to come...]
+*Different sources of CqlPoco documentation disagree on the API.  The version that seems to most closely reflect the reality of the version found in the DataStax driver package can be found [here](<http://www.datastax.com/dev/blog/csharp-driver-cassandra-new-mapper-linq-improvements>), though it is incomplete and should be supplemented with the documentation found [here](<https://github.com/LukeTillman/cqlpoco>).*
+
+To see some working code example, check out the [02_CqlPoco](<https://github.com/patdaburu/CassandraExamples/tree/master/01_ConnectCrud>) console application project.
 
